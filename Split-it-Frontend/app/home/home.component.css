@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.header-container{
+    width: 100vw;
+    height: 5rem;
+    /* padding-top: 1rem; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 138, 155);
+    border-radius: 0.5rem;
+    border: 0.1rem;
+}
+
+.header-logo{
+    margin-top: -2.2rem;
+}
+
+.btn-container{
+    display: flex;
+    margin-right: 2%;
+}
+
+.header-login{    
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    font-family: 'oswald', 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    padding-right: 2rem;
+    
+    background-color:rgba(255, 247, 8, 0.803);
+    padding: 0.1rem;
+    margin-bottom: auto;
+    opacity: 0.9;
+}
+.header-login:hover{
+    border: 2px solid rgba(255, 247, 8, 0.8);
+    box-shadow: 2px 2px rgba(255, 247, 8, 0.8);
+    opacity: 1;
+}
+
+.header-signup{
+
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    
+    border-radius: 0.4rem;
+    font-family: 'oswald', 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color:rgb(17, 186, 147);
+    
+    padding: 0.1rem;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+    
+}
+.header-signup:hover{
+    border: 2px solid rgb(20, 213, 168);
+    box-shadow: 2px 2px rgb(20, 213, 168);
+    opacity: 1;
+}
+
+.main-description{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+
+    background-color: rgb(212, 219, 212);
+    
+}
+
+.content-container{
+    
+    padding: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.group-photo{
+    padding-bottom: 2rem; 
+}
+
+.join-button-main{
+    padding: 0.7rem;
+    border-radius: 1rem;
+    font-size: x-large; font-weight: 600;
+    
+    background-color: rgba(66, 190, 52, 0.786);
+    opacity: 0.9;
+}
+.join-button-main:hover{
+    border: 3px solid rgb(29, 147, 92);
+    box-shadow: 1px 1px rgb(29, 147, 92);
+    opacity: 1;
+}
+
+.description-text{
+    padding: 1rem;  
+    padding-top: 1.5rem;  
+    font-weight: 900;
+    text-align: center;
+}
+
