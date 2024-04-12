@@ -92,3 +92,84 @@ p{
     box-shadow: 2px 2px rgb(38, 27, 36);
     opacity: 1;
 }
+
+.group-form-container{
+    width: 44em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    line-height: 2em;
+}
+
+.group-form-container label{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.group-form-container input{
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+.group-form-container input:hover{
+    border: 2px solid rgb(20, 213, 168);
+    box-shadow: 2px 2px rgb(20, 213, 168);
+    opacity: 1;
+}
+
+.group-form-container .close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.group-form-container .form-heading h2{
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+}
+
+.group-form-container .group-members h3{
+    margin: 10px 0px 10px;
+    text-align: center;
+}
+
+.group-form-container .group-form-popup{
+    margin: 3%;
+}
+
+
+.group-form-container .group-form-popup .group-members #add-member-btn{
+
+    margin: 20px 0px 20px;
+    height: 2.5em;
+    width: 30%;
+    color: #eee;   
+    background-color: green;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.group-form-container .group-form-popup #create-group-btn{
+    
+    width: 25%;
+    height: 2rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.41)
+}
