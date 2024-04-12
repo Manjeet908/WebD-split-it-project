@@ -22,10 +22,6 @@ body{
     border: 0.1rem;
 }
 
-.header-logo{
-    margin-top: -2.2rem;
-}
-
 .btn-container{
     display: flex;
     margin-right: 2%;
